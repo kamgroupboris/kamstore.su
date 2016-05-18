@@ -7,7 +7,6 @@
 <aside class="col-xs-3 sidbar_gl ">
 		<div class="sidbarRight">
 			<?
-
 			$footM = Menu::find()->select('label,url')->where(['type_menu'=>'right','active'=>2])->asArray()->all();
 
 
